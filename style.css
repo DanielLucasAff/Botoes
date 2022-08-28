@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 25px;
+  background: #010107;
+  color: #010107;
+}
+
+.box {
+  width: 65px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 0.6rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.box:hover {
+  width: 200px;
+  background: rgb(94, 34, 131);
+  border-radius: 35px;
+  color: #fff;
+  box-shadow: 0 0 50px #b315917c;
+}
+
+.box:nth-child(2):hover {
+  background-color: #c32aa3;
+  box-shadow: 0 0 50px #eaca2b7d;
+}
+
+.box:nth-child(3):hover {
+  background-color: #25d366;
+  box-shadow: 0 0 50px #25d3657d;
+}
+
+.box:nth-child(4):hover {
+  background-color: #fd2a2a;
+  box-shadow: 0 0 50px #d325258d;
+}
+
+.box:nth-child(5):hover {
+  background-color: #002fff;
+  box-shadow: 0 0 50px #2570d377;
+}
+
+.box:nth-child(6):hover {
+  background-color: #5865f2;
+  box-shadow: 0 0 50px #4825d377;
+}
+
+.box:nth-child(7):hover {
+  background-color: #40e0d0;
+  box-shadow: 0 0 50px #ff0000;
+}
+
+.box:nth-child(8):hover {
+  background-color: #0e76a8;
+  box-shadow: 0 0 50px #258ad377;
+}
+
+.box:nth-child(9):hover {
+  background-color: #a80e0e;
+  box-shadow: 0 0 50px #d35f2577;
+}
+
+.navbar p {
+  transform: translate(60px);
+}
+
+.box .icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all 1s ease;
+}
+
+.github {
+  background-color: #580a9c;
+}
+
+.instagram {
+  background-color: #c32aa3;
+}
+
+.whatsapp {
+  background-color: #25d366;
+}
+
+.youtube {
+  background-color: #fd2a2a;
+}
+
+.facebook {
+  background-color: #002fff;
+}
+
+.discord {
+  background-color: #5865f2;
+}
+
+.tiktok {
+  background-color: #40e0d0;
+}
+
+.linkedin {
+  background-color: #0e76a8;
+}
+
+.arrow {
+  background-color: #a80e0e;
+}
+
+.arrow:active {
+  color: #fff;
+}
+
+.box:hover .icon {
+  background: #fff;
+  color: #3b3b3b;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0, 26);
+}

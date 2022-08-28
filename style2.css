@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Mono&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 25px;
+  background: #010107;
+  color: #010107;
+}
+
+.box {
+  width: 65px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  margin: 0.6rem;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 1s ease;
+}
+
+.box:hover {
+  width: 200px;
+  background: #1b2838;
+  border-radius: 35px;
+  color: #fff;
+  box-shadow: 0 0 50px rgba(41, 61, 85, 0.486);
+}
+
+.box:nth-child(2):hover {
+  background-color: #ffeb0d;
+  box-shadow: 0 0 50px #eaca2b9a;
+}
+
+.box:nth-child(3):hover {
+  background-color: #6441a5;
+  box-shadow: 0 0 50px #4825d377;
+}
+
+.box:nth-child(4):hover {
+  background-color: #fd2a2a;
+  box-shadow: 0 0 50px #d325258d;
+}
+
+.box:nth-child(5):hover {
+  background-color: #0084ff;
+  box-shadow: 0 0 50px #0175e1bf;
+}
+
+.box:nth-child(6):hover {
+  background-color: #34526f;
+  box-shadow: 0 0 50px #4d779fbe;
+}
+
+.box:nth-child(7):hover {
+  background-color: #00aff0;
+  box-shadow: 0 0 50px #2bc6fff2;
+}
+
+.box:nth-child(8):hover {
+  background-color: #e60023;
+  box-shadow: 0 0 50px #ff0026ad;
+}
+
+.box:nth-child(9):hover {
+  background-color: #a80e0e;
+  box-shadow: 0 0 50px #d35f2577;
+}
+
+.navbar p {
+  transform: translate(60px);
+}
+
+.box .icon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+  transition: all 1s ease;
+}
+
+.steam {
+  background-color: #574f5d;
+}
+
+.snapchat {
+  background-color: #ffeb0d;
+}
+
+.twitch {
+  background-color: #6441a5;
+}
+
+.reddit {
+  background-color: #fd2a2a;
+}
+
+.twitter {
+  background-color: #0084ff;
+}
+
+.tumblr {
+  background-color: #34526f;
+}
+
+.skype {
+  background-color: #00aff0;
+}
+
+.pinterest {
+  background-color: #e60023;
+}
+
+.arrow {
+  background-color: #a80e0e;
+}
+
+.box:hover .icon {
+  background: #fff;
+  color: #3b3b3b;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0, 26);
+}
